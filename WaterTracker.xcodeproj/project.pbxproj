@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A4DDAF42B7B6A6E00844F0C /* OnboardingScreen02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4DDAF32B7B6A6E00844F0C /* OnboardingScreen02.swift */; };
+		5A52CAC42B81E9DD0087E6F8 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A52CAC32B81E9DD0087E6F8 /* InterfaceController.swift */; };
+		5AE583102B7BA001002E8B1A /* WaterMetricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5830F2B7BA001002E8B1A /* WaterMetricView.swift */; };
+		5AE583142B7BA80D002E8B1A /* Notification Preferences .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE583132B7BA80D002E8B1A /* Notification Preferences .swift */; };
+		5AE5837C2B7CBE6F002E8B1A /* WataerTrackerWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5837B2B7CBE6F002E8B1A /* WataerTrackerWatchApp.swift */; };
+		5AE583802B7CBE70002E8B1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE5837F2B7CBE70002E8B1A /* Assets.xcassets */; };
+		5AE583832B7CBE70002E8B1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE583822B7CBE70002E8B1A /* Preview Assets.xcassets */; };
+		5AE5838D2B7CBE70002E8B1A /* WataerTrackerWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5838C2B7CBE70002E8B1A /* WataerTrackerWatch_Watch_AppTests.swift */; };
+		5AE583972B7CBE70002E8B1A /* WataerTrackerWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE583962B7CBE70002E8B1A /* WataerTrackerWatch_Watch_AppUITests.swift */; };
+		5AE583992B7CBE70002E8B1A /* WataerTrackerWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE583982B7CBE70002E8B1A /* WataerTrackerWatch_Watch_AppUITestsLaunchTests.swift */; };
+		5AE5839C2B7CBE70002E8B1A /* WataerTrackerWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5AE583792B7CBE6F002E8B1A /* WataerTrackerWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5AECCF3E2B7E549200A87C23 /* UserFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AECCF3D2B7E549200A87C23 /* UserFile.swift */; };
+		68375B692B7B53FD00F19D9C /* WaterTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68375B682B7B53FD00F19D9C /* WaterTrackerApp.swift */; };
+		68375B6B2B7B53FD00F19D9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68375B6A2B7B53FD00F19D9C /* ContentView.swift */; };
+		68375B6D2B7B53FF00F19D9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68375B6C2B7B53FF00F19D9C /* Assets.xcassets */; };
+		68375B702B7B53FF00F19D9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68375B6F2B7B53FF00F19D9C /* Preview Assets.xcassets */; };
+		6838A86E2B8332A300B3CFE2 /* Cups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838A86D2B8332A300B3CFE2 /* Cups.swift */; };
+		6838A8702B83353100B3CFE2 /* ProgressTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838A86F2B83353100B3CFE2 /* ProgressTrack.swift */; };
+		6838A8722B83373700B3CFE2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838A8712B83373700B3CFE2 /* Model.swift */; };
+		6838A8742B848A0B00B3CFE2 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838A8732B848A0B00B3CFE2 /* Splash.swift */; };
+		6838A8762B848BC800B3CFE2 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838A8752B848BC800B3CFE2 /* Splash.swift */; };
+		686058302B7CF9C20096E029 /* ProgressTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6860582F2B7CF9C20096E029 /* ProgressTrack.swift */; };
+		68FDE8052B7E13B30016A2B2 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FDE8042B7E13B30016A2B2 /* Track.swift */; };
+		68FDE8072B8112980016A2B2 /* Cups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FDE8062B8112980016A2B2 /* Cups.swift */; };
+		68FDE8272B81E3C20016A2B2 /* Tapview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FDE8262B81E3C20016A2B2 /* Tapview.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AE583892B7CBE70002E8B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68375B5D2B7B53FD00F19D9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AE583782B7CBE6F002E8B1A;
+			remoteInfo = "WataerTrackerWatch Watch App";
+		};
+		5AE583932B7CBE70002E8B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68375B5D2B7B53FD00F19D9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AE583782B7CBE6F002E8B1A;
+			remoteInfo = "WataerTrackerWatch Watch App";
+		};
+		5AE5839A2B7CBE70002E8B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68375B5D2B7B53FD00F19D9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AE583782B7CBE6F002E8B1A;
+			remoteInfo = "WataerTrackerWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5AE5839D2B7CBE70002E8B1A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5AE5839C2B7CBE70002E8B1A /* WataerTrackerWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5A4DDAF32B7B6A6E00844F0C /* OnboardingScreen02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen02.swift; sourceTree = "<group>"; };
+		5A52CAC32B81E9DD0087E6F8 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		5AE5830F2B7BA001002E8B1A /* WaterMetricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterMetricView.swift; sourceTree = "<group>"; };
+		5AE583132B7BA80D002E8B1A /* Notification Preferences .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification Preferences .swift"; sourceTree = "<group>"; };
+		5AE583792B7CBE6F002E8B1A /* WataerTrackerWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WataerTrackerWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE5837B2B7CBE6F002E8B1A /* WataerTrackerWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WataerTrackerWatchApp.swift; sourceTree = "<group>"; };
+		5AE5837F2B7CBE70002E8B1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AE583822B7CBE70002E8B1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5AE583882B7CBE70002E8B1A /* WataerTrackerWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WataerTrackerWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE5838C2B7CBE70002E8B1A /* WataerTrackerWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WataerTrackerWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		5AE583922B7CBE70002E8B1A /* WataerTrackerWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WataerTrackerWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE583962B7CBE70002E8B1A /* WataerTrackerWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WataerTrackerWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		5AE583982B7CBE70002E8B1A /* WataerTrackerWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WataerTrackerWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5AECCF3D2B7E549200A87C23 /* UserFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFile.swift; sourceTree = "<group>"; };
+		68375B652B7B53FD00F19D9C /* WaterTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68375B682B7B53FD00F19D9C /* WaterTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackerApp.swift; sourceTree = "<group>"; };
+		68375B6A2B7B53FD00F19D9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		68375B6C2B7B53FF00F19D9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68375B6F2B7B53FF00F19D9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6838A86D2B8332A300B3CFE2 /* Cups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cups.swift; sourceTree = "<group>"; };
+		6838A86F2B83353100B3CFE2 /* ProgressTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTrack.swift; sourceTree = "<group>"; };
+		6838A8712B83373700B3CFE2 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6838A8732B848A0B00B3CFE2 /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
+		6838A8752B848BC800B3CFE2 /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
+		6860582F2B7CF9C20096E029 /* ProgressTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTrack.swift; sourceTree = "<group>"; };
+		68FDE8042B7E13B30016A2B2 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		68FDE8062B8112980016A2B2 /* Cups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cups.swift; sourceTree = "<group>"; };
+		68FDE8262B81E3C20016A2B2 /* Tapview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tapview.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AE583762B7CBE6F002E8B1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE583852B7CBE70002E8B1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE5838F2B7CBE70002E8B1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68375B622B7B53FD00F19D9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AE5837A2B7CBE6F002E8B1A /* WataerTrackerWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				5AE5837B2B7CBE6F002E8B1A /* WataerTrackerWatchApp.swift */,
+				6838A86D2B8332A300B3CFE2 /* Cups.swift */,
+				6838A86F2B83353100B3CFE2 /* ProgressTrack.swift */,
+				6838A8732B848A0B00B3CFE2 /* Splash.swift */,
+				5A52CAC32B81E9DD0087E6F8 /* InterfaceController.swift */,
+				5AE5837F2B7CBE70002E8B1A /* Assets.xcassets */,
+				5AE583812B7CBE70002E8B1A /* Preview Content */,
+			);
+			path = "WataerTrackerWatch Watch App";
+			sourceTree = "<group>";
+		};
+		5AE583812B7CBE70002E8B1A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5AE583822B7CBE70002E8B1A /* Preview Assets.xcassets */,
+				6838A8712B83373700B3CFE2 /* Model.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5AE5838B2B7CBE70002E8B1A /* WataerTrackerWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AE5838C2B7CBE70002E8B1A /* WataerTrackerWatch_Watch_AppTests.swift */,
+			);
+			path = "WataerTrackerWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		5AE583952B7CBE70002E8B1A /* WataerTrackerWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AE583962B7CBE70002E8B1A /* WataerTrackerWatch_Watch_AppUITests.swift */,
+				5AE583982B7CBE70002E8B1A /* WataerTrackerWatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "WataerTrackerWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		68375B5C2B7B53FD00F19D9C = {
+			isa = PBXGroup;
+			children = (
+				68375B672B7B53FD00F19D9C /* WaterTracker */,
+				5AE5837A2B7CBE6F002E8B1A /* WataerTrackerWatch Watch App */,
+				5AE5838B2B7CBE70002E8B1A /* WataerTrackerWatch Watch AppTests */,
+				5AE583952B7CBE70002E8B1A /* WataerTrackerWatch Watch AppUITests */,
+				68375B662B7B53FD00F19D9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68375B662B7B53FD00F19D9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68375B652B7B53FD00F19D9C /* WaterTracker.app */,
+				5AE583792B7CBE6F002E8B1A /* WataerTrackerWatch Watch App.app */,
+				5AE583882B7CBE70002E8B1A /* WataerTrackerWatch Watch AppTests.xctest */,
+				5AE583922B7CBE70002E8B1A /* WataerTrackerWatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68375B672B7B53FD00F19D9C /* WaterTracker */ = {
+			isa = PBXGroup;
+			children = (
+				5AECCF3D2B7E549200A87C23 /* UserFile.swift */,
+				68375B682B7B53FD00F19D9C /* WaterTrackerApp.swift */,
+				68375B6A2B7B53FD00F19D9C /* ContentView.swift */,
+				5AE5830F2B7BA001002E8B1A /* WaterMetricView.swift */,
+				68FDE8042B7E13B30016A2B2 /* Track.swift */,
+				6860582F2B7CF9C20096E029 /* ProgressTrack.swift */,
+				6838A8752B848BC800B3CFE2 /* Splash.swift */,
+				68FDE8062B8112980016A2B2 /* Cups.swift */,
+				68FDE8262B81E3C20016A2B2 /* Tapview.swift */,
+				5A4DDAF32B7B6A6E00844F0C /* OnboardingScreen02.swift */,
+				5AE583132B7BA80D002E8B1A /* Notification Preferences .swift */,
+				68375B6C2B7B53FF00F19D9C /* Assets.xcassets */,
+				68375B6E2B7B53FF00F19D9C /* Preview Content */,
+			);
+			path = WaterTracker;
+			sourceTree = "<group>";
+		};
+		68375B6E2B7B53FF00F19D9C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				68375B6F2B7B53FF00F19D9C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AE583782B7CBE6F002E8B1A /* WataerTrackerWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE583A42B7CBE70002E8B1A /* Build configuration list for PBXNativeTarget "WataerTrackerWatch Watch App" */;
+			buildPhases = (
+				5AE583752B7CBE6F002E8B1A /* Sources */,
+				5AE583762B7CBE6F002E8B1A /* Frameworks */,
+				5AE583772B7CBE6F002E8B1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WataerTrackerWatch Watch App";
+			productName = "WataerTrackerWatch Watch App";
+			productReference = 5AE583792B7CBE6F002E8B1A /* WataerTrackerWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AE583872B7CBE70002E8B1A /* WataerTrackerWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE583A52B7CBE70002E8B1A /* Build configuration list for PBXNativeTarget "WataerTrackerWatch Watch AppTests" */;
+			buildPhases = (
+				5AE583842B7CBE70002E8B1A /* Sources */,
+				5AE583852B7CBE70002E8B1A /* Frameworks */,
+				5AE583862B7CBE70002E8B1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AE5838A2B7CBE70002E8B1A /* PBXTargetDependency */,
+			);
+			name = "WataerTrackerWatch Watch AppTests";
+			productName = "WataerTrackerWatch Watch AppTests";
+			productReference = 5AE583882B7CBE70002E8B1A /* WataerTrackerWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AE583912B7CBE70002E8B1A /* WataerTrackerWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE583A62B7CBE70002E8B1A /* Build configuration list for PBXNativeTarget "WataerTrackerWatch Watch AppUITests" */;
+			buildPhases = (
+				5AE5838E2B7CBE70002E8B1A /* Sources */,
+				5AE5838F2B7CBE70002E8B1A /* Frameworks */,
+				5AE583902B7CBE70002E8B1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AE583942B7CBE70002E8B1A /* PBXTargetDependency */,
+			);
+			name = "WataerTrackerWatch Watch AppUITests";
+			productName = "WataerTrackerWatch Watch AppUITests";
+			productReference = 5AE583922B7CBE70002E8B1A /* WataerTrackerWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		68375B642B7B53FD00F19D9C /* WaterTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68375B732B7B53FF00F19D9C /* Build configuration list for PBXNativeTarget "WaterTracker" */;
+			buildPhases = (
+				68375B612B7B53FD00F19D9C /* Sources */,
+				68375B622B7B53FD00F19D9C /* Frameworks */,
+				68375B632B7B53FD00F19D9C /* Resources */,
+				5AE5839D2B7CBE70002E8B1A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AE5839B2B7CBE70002E8B1A /* PBXTargetDependency */,
+			);
+			name = WaterTracker;
+			productName = WaterTracker;
+			productReference = 68375B652B7B53FD00F19D9C /* WaterTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68375B5D2B7B53FD00F19D9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5AE583782B7CBE6F002E8B1A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5AE583872B7CBE70002E8B1A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5AE583782B7CBE6F002E8B1A;
+					};
+					5AE583912B7CBE70002E8B1A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5AE583782B7CBE6F002E8B1A;
+					};
+					68375B642B7B53FD00F19D9C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 68375B602B7B53FD00F19D9C /* Build configuration list for PBXProject "WaterTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68375B5C2B7B53FD00F19D9C;
+			productRefGroup = 68375B662B7B53FD00F19D9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68375B642B7B53FD00F19D9C /* WaterTracker */,
+				5AE583782B7CBE6F002E8B1A /* WataerTrackerWatch Watch App */,
+				5AE583872B7CBE70002E8B1A /* WataerTrackerWatch Watch AppTests */,
+				5AE583912B7CBE70002E8B1A /* WataerTrackerWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AE583772B7CBE6F002E8B1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE583832B7CBE70002E8B1A /* Preview Assets.xcassets in Resources */,
+				5AE583802B7CBE70002E8B1A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE583862B7CBE70002E8B1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE583902B7CBE70002E8B1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68375B632B7B53FD00F19D9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68375B702B7B53FF00F19D9C /* Preview Assets.xcassets in Resources */,
+				68375B6D2B7B53FF00F19D9C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AE583752B7CBE6F002E8B1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6838A8722B83373700B3CFE2 /* Model.swift in Sources */,
+				5A52CAC42B81E9DD0087E6F8 /* InterfaceController.swift in Sources */,
+				6838A8742B848A0B00B3CFE2 /* Splash.swift in Sources */,
+				6838A8702B83353100B3CFE2 /* ProgressTrack.swift in Sources */,
+				6838A86E2B8332A300B3CFE2 /* Cups.swift in Sources */,
+				5AE5837C2B7CBE6F002E8B1A /* WataerTrackerWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE583842B7CBE70002E8B1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE5838D2B7CBE70002E8B1A /* WataerTrackerWatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE5838E2B7CBE70002E8B1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE583972B7CBE70002E8B1A /* WataerTrackerWatch_Watch_AppUITests.swift in Sources */,
+				5AE583992B7CBE70002E8B1A /* WataerTrackerWatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68375B612B7B53FD00F19D9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AECCF3E2B7E549200A87C23 /* UserFile.swift in Sources */,
+				6838A8762B848BC800B3CFE2 /* Splash.swift in Sources */,
+				68375B6B2B7B53FD00F19D9C /* ContentView.swift in Sources */,
+				68FDE8072B8112980016A2B2 /* Cups.swift in Sources */,
+				68375B692B7B53FD00F19D9C /* WaterTrackerApp.swift in Sources */,
+				686058302B7CF9C20096E029 /* ProgressTrack.swift in Sources */,
+				5AE583142B7BA80D002E8B1A /* Notification Preferences .swift in Sources */,
+				5A4DDAF42B7B6A6E00844F0C /* OnboardingScreen02.swift in Sources */,
+				5AE583102B7BA001002E8B1A /* WaterMetricView.swift in Sources */,
+				68FDE8272B81E3C20016A2B2 /* Tapview.swift in Sources */,
+				68FDE8052B7E13B30016A2B2 /* Track.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AE5838A2B7CBE70002E8B1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AE583782B7CBE6F002E8B1A /* WataerTrackerWatch Watch App */;
+			targetProxy = 5AE583892B7CBE70002E8B1A /* PBXContainerItemProxy */;
+		};
+		5AE583942B7CBE70002E8B1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AE583782B7CBE6F002E8B1A /* WataerTrackerWatch Watch App */;
+			targetProxy = 5AE583932B7CBE70002E8B1A /* PBXContainerItemProxy */;
+		};
+		5AE5839B2B7CBE70002E8B1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AE583782B7CBE6F002E8B1A /* WataerTrackerWatch Watch App */;
+			targetProxy = 5AE5839A2B7CBE70002E8B1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5AE5839E2B7CBE70002E8B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WataerTrackerWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 25ANLCX5P6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WataerTrackerWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = a.WaterTracker;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.WaterTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		5AE5839F2B7CBE70002E8B1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WataerTrackerWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 25ANLCX5P6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WataerTrackerWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = a.WaterTracker;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.WaterTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		5AE583A02B7CBE70002E8B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fa.WataerTrackerWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WataerTrackerWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WataerTrackerWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		5AE583A12B7CBE70002E8B1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fa.WataerTrackerWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WataerTrackerWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WataerTrackerWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		5AE583A22B7CBE70002E8B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fa.WataerTrackerWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WataerTrackerWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		5AE583A32B7CBE70002E8B1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fa.WataerTrackerWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WataerTrackerWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		68375B712B7B53FF00F19D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68375B722B7B53FF00F19D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68375B742B7B53FF00F19D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 25ANLCX5P6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.WaterTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68375B752B7B53FF00F19D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 25ANLCX5P6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.WaterTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AE583A42B7CBE70002E8B1A /* Build configuration list for PBXNativeTarget "WataerTrackerWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE5839E2B7CBE70002E8B1A /* Debug */,
+				5AE5839F2B7CBE70002E8B1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE583A52B7CBE70002E8B1A /* Build configuration list for PBXNativeTarget "WataerTrackerWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE583A02B7CBE70002E8B1A /* Debug */,
+				5AE583A12B7CBE70002E8B1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE583A62B7CBE70002E8B1A /* Build configuration list for PBXNativeTarget "WataerTrackerWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE583A22B7CBE70002E8B1A /* Debug */,
+				5AE583A32B7CBE70002E8B1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68375B602B7B53FD00F19D9C /* Build configuration list for PBXProject "WaterTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68375B712B7B53FF00F19D9C /* Debug */,
+				68375B722B7B53FF00F19D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68375B732B7B53FF00F19D9C /* Build configuration list for PBXNativeTarget "WaterTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68375B742B7B53FF00F19D9C /* Debug */,
+				68375B752B7B53FF00F19D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68375B5D2B7B53FD00F19D9C /* Project object */;
+}
